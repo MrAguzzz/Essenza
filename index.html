@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essenza | Perfumería Online</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.25/dist/sweetalert2.all.min.js" defer></script>
+    <script src="./js/carrito.js" defer></script>
+    <script src="./js/app.js" defer></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">ESSENZA</a>
+
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#catalogo">Perfumes</a>
+            </div>
+
+            <button id="btn-carrito" class="btn-carrito" type="button">
+                Carrito (<span id="contador-carrito">0</span>)
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-contenido">
+                <p class="subtitulo">FRAGANCIAS EXCLUSIVAS</p>
+
+                <h1>Descubrí tu próxima esencia</h1>
+
+                <p>
+                    Explorá nuestra colección de perfumes
+                    de diseñador y fragancias árabes.
+                </p>
+
+                <a href="#catalogo" class="btn-principal">
+                    Explorar colección
+                </a>
+            </div>
+        </section>
+
+        <section id="catalogo" class="catalogo">
+            <div class="contenedor">
+
+                <h2>Nuestra colección</h2>
+
+                <p class="descripcion">
+                    Encontrá la fragancia perfecta para vos.
+                </p>
+
+                <div class="filtros">
+                    <input
+                        type="text"
+                        id="buscador"
+                        placeholder="Buscar perfume..."
+                        aria-label="Buscar perfume"
+                    >
+
+                    <select id="filtro-categoria"
+                            aria-label="Filtrar por categoría">
+                        <option value="todos">Todas las categorías</option>
+                        <option value="Diseñador">Diseñador</option>
+                        <option value="Árabe">Árabe</option>
+                    </select>
+
+                    <select id="orden-precio"
+                            aria-label="Ordenar productos">
+                        <option value="default">Ordenar por</option>
+                        <option value="menor">Menor precio</option>
+                        <option value="mayor">Mayor precio</option>
+                    </select>
+                </div>
+
+                <div id="contenedor-productos" class="productos-grid">
+                    <p>El catálogo estará disponible próximamente.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <aside id="panel-carrito" class="panel-carrito" hidden>
+        <div class="carrito-encabezado">
+            <h2>Tu carrito</h2>
+            <button id="cerrar-carrito" type="button"
+                    aria-label="Cerrar carrito">✕</button>
+        </div>
+
+        <div id="items-carrito"></div>
+
+        <div class="carrito-footer">
+            <p>Total: <strong id="total-carrito">US$ 0</strong></p>
+
+            <button id="vaciar-carrito" type="button">
+                Vaciar carrito
+            </button>
+
+            <button id="finalizar-compra" type="button">
+                Finalizar compra
+            </button>
+        </div>
+    </aside>
+
+    <footer class="footer">
+        <p>© 2026 Essenza. Perfumería Online.</p>
+    </footer>
+
+</body>
+</html>

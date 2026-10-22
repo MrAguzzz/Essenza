@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "The Most Wanted EDP Intense",
+    "marca": "Azzaro",
+    "categoria": "Diseñador",
+    "precio": 110,
+    "imagen": "./assets/img/azzaro-most-wanted.jpg",
+    "descripcion": "Fragancia intensa y especiada con notas dulces."
+  },
+  {
+    "id": 2,
+    "nombre": "Le Male Elixir",
+    "marca": "Jean Paul Gaultier",
+    "categoria": "Diseñador",
+    "precio": 135,
+    "imagen": "./assets/img/le-male-elixir.jpg",
+    "descripcion": "Perfume cálido y dulce con vainilla y lavanda."
+  },
+  {
+    "id": 3,
+    "nombre": "Stronger With You Intensely",
+    "marca": "Emporio Armani",
+    "categoria": "Diseñador",
+    "precio": 120,
+    "imagen": "./assets/img/stronger-with-you.jpg",
+    "descripcion": "Aroma envolvente con vainilla y notas ambaradas."
+  },
+  {
+    "id": 4,
+    "nombre": "Eros Flame",
+    "marca": "Versace",
+    "categoria": "Diseñador",
+    "precio": 100,
+    "imagen": "./assets/img/eros-flame.jpg",
+    "descripcion": "Fragancia vibrante con cítricos y especias."
+  },
+  {
+    "id": 5,
+    "nombre": "Y Eau de Parfum",
+    "marca": "Yves Saint Laurent",
+    "categoria": "Diseñador",
+    "precio": 125,
+    "imagen": "./assets/img/ysl-y.jpg",
+    "descripcion": "Perfume fresco, aromático y amaderado."
+  },
+  {
+    "id": 6,
+    "nombre": "Le Beau Le Parfum",
+    "marca": "Jean Paul Gaultier",
+    "categoria": "Diseñador",
+    "precio": 130,
+    "imagen": "./assets/img/le-beau.jpg",
+    "descripcion": "Fragancia tropical con coco y notas amaderadas."
+  },
+  {
+    "id": 7,
+    "nombre": "Khamrah",
+    "marca": "Lattafa",
+    "categoria": "Árabe",
+    "precio": 55,
+    "imagen": "./assets/img/khamrah.jpg",
+    "descripcion": "Aroma dulce y especiado con canela y vainilla."
+  },
+  {
+    "id": 8,
+    "nombre": "9PM",
+    "marca": "Afnan",
+    "categoria": "Árabe",
+    "precio": 50,
+    "imagen": "./assets/img/afnan-9pm.jpg",
+    "descripcion": "Fragancia dulce y afrutada ideal para la noche."
+  },
+  {
+    "id": 9,
+    "nombre": "Asad",
+    "marca": "Lattafa",
+    "categoria": "Árabe",
+    "precio": 45,
+    "imagen": "./assets/img/asad.jpg",
+    "descripcion": "Perfume especiado con notas de vainilla y ámbar."
+  },
+  {
+    "id": 10,
+    "nombre": "Club de Nuit Intense Man",
+    "marca": "Armaf",
+    "categoria": "Árabe",
+    "precio": 65,
+    "imagen": "./assets/img/club-de-nuit.jpg",
+    "descripcion": "Fragancia cítrica, ahumada y amaderada."
+  },
+  {
+    "id": 11,
+    "nombre": "Badee Al Oud Oud for Glory",
+    "marca": "Lattafa",
+    "categoria": "Árabe",
+    "precio": 55,
+    "imagen": "./assets/img/oud-for-glory.jpg",
+    "descripcion": "Perfume profundo con oud y notas especiadas."
+  },
+  {
+    "id": 12,
+    "nombre": "Fakhar Black",
+    "marca": "Lattafa",
+    "categoria": "Árabe",
+    "precio": 45,
+    "imagen": "./assets/img/fakhar-black.jpg",
+    "descripcion": "Fragancia fresca y aromática con fondo amaderado."
+  }
+]
